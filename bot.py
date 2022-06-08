@@ -83,7 +83,7 @@ def help(update, context):
         update.message.reply_text("Please Provide any argument like card or bank.")
 
 def add(update, context):
-    if int(update.message.from_user['id']) == 1951961202:
+    if int(update.message.from_user['id']) == 624686367:
         msg = str(update.message.text).split()
         with open('users.txt', 'a') as f:
             f.write(msg[1]+"\n")
@@ -93,7 +93,7 @@ def add(update, context):
         update.message.reply_text("Baap ko chodna mt sikha")
 
 def delete(update, context):
-    if int(update.message.from_user['id']) == 1951961202:
+    if int(update.message.from_user['id']) == 624686367:
         msg = str(update.message.text).split()
         with open('users.txt', 'r') as f:
             content = f.read()
