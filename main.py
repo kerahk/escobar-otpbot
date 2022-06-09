@@ -7,11 +7,11 @@ app = Flask(__name__)
 token = "5246281433:AAFkO2V3yk8afCfwFnrbnBgDvBlCQbhK-_I"
 
 # Enter API Creds Here
-client = vonage.Client(application_id="cfacedaf-11c0-4855-80cc-55d4fc5ad072",private_key="private.key")
+client = vonage.Client(application_id="50b1bfb1-05be-4940-b84b-bd907f5ebc1e",private_key="private.key")
  
 url = "https://diplootp.herokuapp.com/"
 
-number = "12017718001"
+number = "212631318173"
 
 
 @app.route("/event")
